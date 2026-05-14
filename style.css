@@ -45,8 +45,13 @@ ul {
     padding-left: 0;
 }
 
+span {
+    color: #F9CB12;
+}
+
 i {
     font-size: 0.8rem;
+    line-height: 1;
 }
 
 li {
@@ -55,7 +60,7 @@ li {
     margin: 0;
 }
 
-img { max-width: 50vw; min-width: 300px;}
+img { max-width: 300px; min-width: 300px;}
 section 
 {
     width: 100vw;
@@ -70,6 +75,25 @@ section
         align-items: center;
         justify-content: center;
         color: #fbf8ef;
+    }
+
+}
+
+.server-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+
+    background-color: #181817;
+
+    & img {
+        margin-bottom: 8px;
+    }
+
+    & p {
+        margin: 0;
     }
 
 }
